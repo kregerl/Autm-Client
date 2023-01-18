@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "autmclient",
+  "version": "${version}",
+
+  "name": "Autm Client",
+  "description": "A suite of hacks",
+  "authors": [
+    "AreUThreatningMe"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kregerl/Autm-Client",
+    "sources": "https://github.com/kregerl/Autm-Client"
+  },
+
+  "license": "MIT",
+  "icon": "assets/autmclient/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.loucaskreger.autmclient.AutmClient"
+    ]
+  },
+  "mixins": [
+    "autmclient.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
