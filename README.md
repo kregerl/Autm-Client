@@ -1,4 +1,4 @@
-#Autm Client
+# Autm Client
 A small collection of minecraft cheats.  
 
 Supported modules: 
@@ -7,6 +7,6 @@ Supported modules:
 - **Ban Book** - Create books fully of large unicode characters that can effectively "ban" players from certain areas.
 - **Reach** - Attack entities up to 50 blocks away
 
-#IDEA  
+# IDEA  
 Torch placer  
 Place blocks with reach  
